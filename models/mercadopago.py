@@ -677,7 +677,7 @@ class TxMercadoPago(models.Model):
             tries = tries - 1
         if not res:
             pass
-            # raise openerp.exceptions.
+            # raise odoo.exceptions.
         result = res.read()
         res.close()
         return result

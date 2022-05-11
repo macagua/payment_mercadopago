@@ -41,8 +41,8 @@
                     attrs="{'invisible':[('mercadopago_txn_provider', '!=', 'mercadopago')] }"
                     name="action_mercadopago_check_status"
                     class="oe_stat_button">
-                    <img src="/payment_mercadopago/static/src/img/mercadopago_logo_64.png" width="32" alt="logo mp"/>
-                    <span>Actualizar estado</span>
+                    <img src="/payment_mercadopago/static/src/img/mercadopago_logo_64.png" width="32" alt="Logo MercadoPago"/>
+                    <span>Update status</span>
                   </button>
               </xpath>
               <xpath expr="//field[@name='acquirer_reference']" position="after">

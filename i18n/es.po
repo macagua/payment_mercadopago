@@ -1,21 +1,24 @@
 # Spanish translation for openobject-addons
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
-#
+# Translators:
+# Pedro Manuel Baeza <pedro.baeza@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-08-17 22:01+0000\n"
-"Last-Translator: Pedro Manuel Baeza <pedro.baeza@gmail.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
+"PO-Revision-Date: 2021-12-21 10:34-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Launchpad-Export-Date: 2014-08-18 07:25+0000\n"
-"X-Generator: Launchpad (build 17156)\n"
 
 #. module: payment_MercadoPago
 #: field:payment.acquirer,MercadoPago_api_access_token:0
@@ -50,7 +53,7 @@ msgstr "Transacción de pago"
 #. module: payment_MercadoPago
 #: field:payment.acquirer,MercadoPago_email_account:0
 msgid "MercadoPago Email ID"
-msgstr "Email ID de MercadoPago"
+msgstr "ID de Correo electrónico MercadoPago"
 
 #. module: payment_MercadoPago
 #: help:payment.acquirer,MercadoPago_use_ipn:0
@@ -83,7 +86,7 @@ msgid ""
 "The Merchant ID is used to ensure communications coming from MercadoPago are "
 "valid and secured."
 msgstr ""
-"El ID de comerciante  se usa para asegurar que las comunicaciones que "
+"El ID de comerciante se usa para asegurar que las comunicaciones que "
 "provienen de MercadoPago son válidas y seguras."
 
 #. module: payment_MercadoPago

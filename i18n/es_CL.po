@@ -1,0 +1,182 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * payment_mercadopago
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-15 19:44+0000\n"
+"PO-Revision-Date: 2021-06-15 19:44+0000\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. module: payment_mercadopago
+#: model_terms:ir.ui.view,arch_db:payment_mercadopago.transaction_form_mercadopago
+msgid "<span>Update status</span>"
+msgstr "<span>Actualizar estado</span>"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_api_access_token
+msgid "Access Token"
+msgstr "Token de acceso"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_api_access_token_validity
+msgid "Access Token Validity"
+msgstr "Validez del token de acceso"
+
+#. module: payment_mercadopago
+#: model:ir.model,name:payment_mercadopago.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: payment_mercadopago
+#: model_terms:ir.ui.view,arch_db:payment_mercadopago.transaction_form_mercadopago
+msgid "Logo MercadoPago"
+msgstr "Logotipo MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields.selection,name:payment_mercadopago.selection__payment_acquirer__provider__mercadopago
+#: model:payment.acquirer,name:payment_mercadopago.payment_acquirer_mercadopago
+msgid "MercadoPago"
+msgstr "MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_res_company__mercadopago_account
+msgid "MercadoPago Account"
+msgstr "Cuenta MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_client_id
+msgid "MercadoPago Client Id"
+msgstr "ID de cliente de MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_email_account
+msgid "MercadoPago Email ID"
+msgstr "ID de correo electrónico de MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,help:payment_mercadopago.field_payment_acquirer__mercadopago_use_ipn
+msgid "MercadoPago Instant Payment Notification"
+msgstr "Notificación de pago instantáneo de MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_seller_account
+msgid "MercadoPago Merchant ID"
+msgstr "ID de comerciante de MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_secret_key
+msgid "MercadoPago Secret Key"
+msgstr "Clave secreta de MercadoPago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,help:payment_mercadopago.field_res_company__mercadopago_account
+msgid "MercadoPago username (usually email) for receiving online payments."
+msgstr ""
+"Nombre de usuario de MercadoPago (generalmente correo electrónico) para "
+"recibir pagos en línea."
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_transaction__mercadopago_txn_merchant_order_id
+msgid "Mercadopago Merchant Order id"
+msgstr "ID de pedido de comerciante de Mercadopago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_transaction__mercadopago_txn_preference_id
+msgid "Mercadopago Preference id"
+msgstr "ID de preferencia de Mercadopago"
+
+#. module: payment_mercadopago
+#: model:ir.model,name:payment_mercadopago.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "Método de pago"
+
+#. module: payment_mercadopago
+#: model:ir.model,name:payment_mercadopago.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Transacción de pago"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__provider
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_transaction__mercadopago_txn_provider
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_api_password
+msgid "Rest API Password"
+msgstr "Contraseña de la API Rest"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_api_username
+msgid "Rest API Username"
+msgstr "Usuario de la API Rest"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,help:payment_mercadopago.field_payment_acquirer__mercadopago_seller_account
+msgid ""
+"The Merchant ID is used to ensure communications coming from MercadoPago are"
+" valid and secured."
+msgstr ""
+"El ID de comerciante se usa para asegurar que las comunicaciones que "
+"provienen de MercadoPago son válidas y seguras."
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_transaction__mercadopago_txn_id
+msgid "Transaction ID"
+msgstr "ID de la transacción"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_transaction__mercadopago_txn_type
+msgid "Transaction type"
+msgstr "Tipo de transacción"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_use_ipn
+msgid "Use IPN"
+msgstr "Usar IPN"
+
+#. module: payment_mercadopago
+#: model:ir.model.fields,field_description:payment_mercadopago.field_payment_acquirer__mercadopago_api_enabled
+msgid "Use Rest API"
+msgstr "Usar API Rest"
+
+#. module: payment_mercadopago
+#: model_terms:payment.acquirer,pre_msg:payment_mercadopago.payment_acquirer_mercadopago
+msgid ""
+"You will be redirected to the MercadoPago website after clicking on the "
+"payment button."
+msgstr ""
+"Serás redirigido al sitio web de MercadoPago luego de hacer clic en el botón "
+"de pago."
+
+#. module: payment_mercadopago
+#: model_terms:payment.acquirer,auth_msg:payment_mercadopago.payment_acquirer_mercadopago
+msgid "Your payment has been authorized."
+msgstr "Su pago ha sido autorizado."
+
+#. module: payment_mercadopago
+#: model_terms:payment.acquirer,cancel_msg:payment_mercadopago.payment_acquirer_mercadopago
+msgid "Your payment has been cancelled."
+msgstr "Su pago ha sido cancelado."
+
+#. module: payment_mercadopago
+#: model_terms:payment.acquirer,pending_msg:payment_mercadopago.payment_acquirer_mercadopago
+msgid ""
+"Your payment has been successfully processed but is waiting for approval."
+msgstr ""
+"Su pago se ha procesado correctamente, pero está pendiente de aprobación."
+
+#. module: payment_mercadopago
+#: model_terms:payment.acquirer,done_msg:payment_mercadopago.payment_acquirer_mercadopago
+msgid "Your payment has been successfully processed. Thank you!"
+msgstr "Su pago se ha procesado correctamente. ¡Gracias!"
